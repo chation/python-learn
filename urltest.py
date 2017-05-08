@@ -27,7 +27,7 @@ def getImg(url):
         return None
     return images
 
-url = "https://www.zhihu.com/question/34243513/"
+url = "https://www.zhihu.com/question/28560777/"
 title = getTitle(url)
 image = getImg(url)
 imgNum = len(image)
@@ -41,5 +41,3 @@ else:
     print("共找到%d张图片"%len(image))
     for img in image:
         print(img["src"])
-
-
