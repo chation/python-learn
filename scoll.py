@@ -19,7 +19,6 @@ def formatStr(title):
     title = title.replace(':','')
     title = title.replace('>','')
     title = title.replace('<','')
-
     return title
 
 def mkdir(path):
