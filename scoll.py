@@ -5,7 +5,7 @@ import time
 
 # 配置选项
 FONT_PATH = "D://py_imgs//"
-PAGE_PATH = "https://www.zhihu.com/question/49434711"
+PAGE_PATH = "https://www.zhihu.com/question/60080785"
 
 def formatStr(title):
     'windows系统文件夹不能包含如下字符'
