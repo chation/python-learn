@@ -63,7 +63,7 @@ driver.execute_script("""
             setTimeout(f, 100);
         })();
         """)
-# 等待载入
+# 等待载入 
 time.sleep(35)
 
 # 获取页面所有图片
